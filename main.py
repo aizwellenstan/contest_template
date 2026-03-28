@@ -1,4 +1,4 @@
 import sys
-it=map(int,sys.stdin.read().split())
-for _ in range(next(it,0)):
-    n=next(it)
+it = iter(sys.stdin.read().split())
+for i in range(1, int(next(it, 0)) + 1):
+    n = next(it)
